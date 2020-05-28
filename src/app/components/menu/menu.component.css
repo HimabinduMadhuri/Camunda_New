@@ -1,0 +1,39 @@
+.menu{
+    text-align: end;
+    padding: 0px;
+    margin: 0px;
+    vertical-align:top;
+}
+
+.menu li{
+    display: inline-block;
+    position: relative;
+    margin-left: 10px;
+}
+
+.menu li:nth-child(2):hover .profile-viewer{
+    display: block;
+}
+
+.profile-viewer{
+    margin-top: 10px;
+    display: none;
+    position: absolute;
+    background-color: #c6c2c2;
+    width: max-content;
+    right: 0;
+    z-index: 1;
+}
+
+.align-l{
+    text-align: left;
+}
+
+.striped-table {
+    border: 0px solid #808080;
+}
+
+.striped-table th, .striped-table td {
+    border: 2px solid white;
+    padding: 0px 28px;
+}
